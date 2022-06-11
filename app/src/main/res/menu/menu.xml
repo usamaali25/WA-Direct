@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/rate"
+            android:title="@string/rate"
+            android:icon="@drawable/ic_star"/>
+        <item
+            android:id="@+id/share"
+            android:title="@string/share"
+            android:icon="@drawable/ic_share"/>
+        <item
+            android:id="@+id/other"
+            android:title="@string/other_apps"
+            android:icon="@drawable/ic_other"/>
+        <item
+            android:id="@+id/exit"
+            android:title="@string/exit"
+            android:icon="@drawable/ic_exit"/>
+
+    </group>
+</menu>
